@@ -20,3 +20,73 @@ header > h1 {
     color: whitesmoke;
     font-size: 50px;
 }
+#logo {
+  width: 150px;
+  height: 150px;
+}
+
+#sobre{
+
+  padding: 5px;
+  justify-content: center;
+  height: 70px;
+  font-size: 40px;
+}
+
+#sobre > a {
+  text-decoration: none;
+  color: rgb(215, 69, 6);
+}
+
+a:visited {
+  color: white;
+}
+
+#sobre > a:hover {
+  color: #fffb00;
+  font-size: 33px;
+}
+#box{
+color:#021049;
+}
+
+#entrada {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  height: 85px;
+
+}
+#infoResultado {
+padding: 30px;
+}
+
+input[type="date"] {
+  color: #ffffff;
+  font-size: 25px;
+  border: 3px solid #ecf0f1;
+  background: #04196b;
+  padding: 10px;
+}
+
+#botao {
+  padding: 7px;
+  display: flex;
+  height: 90px;
+  justify-content: center;
+}
+
+button {
+  background-color: white;
+  color: black;
+  border: 2px solid #404940;
+  padding: 14px 40px;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+button:hover {
+  background-color: #ff6d00;
+  color: white;
+}
+

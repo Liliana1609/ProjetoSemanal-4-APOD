@@ -89,4 +89,42 @@ button:hover {
   background-color: #ff6d00;
   color: white;
 }
+h1,
+p {
+    color: #efecea;
+    font-size: 30px;
+    text-align: center;
+}
 
+#titulo {
+    color: #062138;
+    font-family: fantasy;
+    font-style: oblique;
+    font-weight: 1000;
+    text-shadow: 4px 4px 8px #070c9a;
+}
+
+#fotoOuVideo {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#explicacao {
+    color: rgb(12, 12, 12);
+    text-align: justify;
+    font-family: Arial Narrow, sans-serif;
+}
+
+#foto {
+    width: 1000px;
+    height: 1000px;
+    border-radius: 10px;
+}
+
+#video {
+    width: 1200px;
+    height: 600px;
+}

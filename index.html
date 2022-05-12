@@ -1,29 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Apod.css">
-    <link rel="icon" href="./imagens/icon.jpg">
-    <title>Universo Surreal</title>
-  <body>
-        <header>
-            <img src="./imagens/LOGO.png" id="nasa" />
-            <h1>Diário Espacial!!</h1>
-        </header>
 
-        <p id="sobre">
-            <a href="https://apod.nasa.gov/apod.html"><b>Fotos Diárias do Espaço sideral!</b></a><br><br></p>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Apod.css">
+  <link rel="icon" href="./imagens/icon.jpg">
+  <title>Universo Surreal</title>
 
-        <p id="box"> Escolha uma data e verás uma imagem fascinante do nosso vasto e incrível universo.<br><br> Abaixo da imagem uma pequena explicação escrita por um astrônomo profissional.<br><br>
-            "Não existe nenhum caminho lógico para a descoberta das leis do Universo - o único caminho é o da intuição."<br>
+<body>
+  <header>
+    <img src="./imagens/LOGO.png" id="nasa" />
+    <h1>Diário Espacial!!</h1>
+  </header>
 
-            <b>Albert Einstein</b>
-        <br><br>
+  <p id="sobre">
+    <a href="https://apod.nasa.gov/apod.html"><b>Fotos Diárias do Espaço sideral!</b></a><br><br>
+  </p>
 
-            Adicione uma data abaixo a partir de 16 de junho de 1995 e inicie sua jornada para o espaço!
-        </p><br>
-<script src="Apod.js"></script>
+  <p id="box"> Escolha uma data e verás uma imagem fascinante do nosso vasto e incrível universo.<br><br> Abaixo da
+    imagem uma pequena explicação escrita por um astrônomo profissional.<br><br>
+    "Não existe nenhum caminho lógico para a descoberta das leis do Universo - o único caminho é o da intuição."<br>
+
+    <b>Albert Einstein</b>
+    <br><br>
+
+    Adicione uma data abaixo a partir de 16 de junho de 1995 e inicie sua jornada para o espaço!
+  </p><br>
+  <div id="entrada">
+    <input id="data" type="date" min="1995-06-16" />
+  </div>
+
+  <div id="botao">
+    <button type="submit" id="btnSubmit" value="enviar"><b>Viaje</b></button>
+  </div>
+
+  <div id="infoResultado">
+    <h1 id="titulo"></h1>
+    <div id="fotoOuVideo"></div>
+    <p id="explicacao"></p>
+  </div>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="./Apod.js"></script>
 </body>
+
 </html>
